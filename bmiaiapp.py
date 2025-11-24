@@ -4,8 +4,8 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 
 name = input("Enter your name:")
-wt = int(input("Enter your weight:")
-ht = int(input("Enter your height:")     
+wt = int(input("Enter your weight:"))
+ht = int(input("Enter your height:"))    
 
 
 bmi = round(wt / (ht/100)**2,2)
